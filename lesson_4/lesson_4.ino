@@ -10,12 +10,12 @@ const int symbol_pause = time_interval;
 const int letter_pause = time_interval * 3;
 const int word_pause = time_interval * 7;
 
-void setup()
+void setup_()
 {
     pinMode(pin, OUTPUT);
 }
 
-void loop()
+void loop_()
 {
     //S
     blink_letter(s);
